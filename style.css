@@ -3,13 +3,33 @@ body {
 }
 .navbar {
     background: green;
+    display: flex;
+}
+.navbar > *{
+    width: 50%;
+}
+.navbar .buttons {
+    text-align: right;
 }
 .tagline {
     background: red;
 }
 .features {
     background: purple;
+    display: flex;
 }
 .footer {
     background: yellow;
+}
+.container {
+    margin: auto;
+    width: 1000px;
+}
+.w-100 {
+    width: 100%;
+    text-align: center;
+}
+.feat {
+    border: 1px dashed red;
+    width: 33%;
 }
