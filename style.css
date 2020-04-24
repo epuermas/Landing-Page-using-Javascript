@@ -20,6 +20,9 @@ h1 {
 .tagline {
     background: red;
 }
+form {
+    border: 1px solid yellow;
+}
 .features {
     background: purple;
     display: flex;
@@ -29,7 +32,7 @@ h1 {
 }
 .container {
     margin: auto;
-    width: 1000px;
+    max-width: 1000px;
 }
 .w-100 {
     width: 100%;
