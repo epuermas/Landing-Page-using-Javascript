@@ -1,6 +1,12 @@
 body {
     background: blue;
 }
+h1 {
+    margin: 0;
+}
+.p-10 {
+    padding: 10px;
+}
 .navbar {
     background: green;
     display: flex;
