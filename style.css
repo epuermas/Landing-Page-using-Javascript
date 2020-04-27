@@ -1,14 +1,15 @@
-body {
+/* body {
     background: blue;
-}
+} */
 h1 {
-    margin: 0;
+    margin-top: 10%;
+    
 }
 .p-10 {
     padding: 10px;
 }
 .navbar {
-    background: green;
+    background: #F7F8F9;
     display: flex;
 }
 .navbar > *{
@@ -18,13 +19,16 @@ h1 {
     text-align: right;
 }
 .tagline {
-    background: red;
+    background-image: url("https://techcrunch.com/wp-content/uploads/2017/05/gettyimages-580833893.jpg");
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
 }
 form {
-    border: 1px solid yellow;
+    border: 1px;
 }
 .features {
-    background: purple;
+    background: #F7F8F9;
     display: flex;
 }
 .footer {
@@ -39,6 +43,6 @@ form {
     text-align: center;
 }
 .feat {
-    border: 1px dashed red;
+    border: 1px ;
     width: 33%;
 }
