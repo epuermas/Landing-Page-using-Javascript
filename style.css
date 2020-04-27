@@ -32,7 +32,7 @@ form {
     display: flex;
 }
 .footer {
-    background: yellow;
+    background: #F7F8F9;
 }
 .container {
     margin: auto;
@@ -45,4 +45,12 @@ form {
 .feat {
     border: 1px ;
     width: 33%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.icons {
+    font-size: 45px;
 }
