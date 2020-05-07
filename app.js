@@ -17,6 +17,6 @@ function send(e){
 //Step 4: get the e-mail from the "input", send the client's e-mail to your e-mail and thank the user
 function sendEmail (){
     let email = document.querySelector('input');
-    alert("This is the user e-mail: " + email.value)
+    alert("This is your e-mail: " + email.value)
     form.innerHTML = "Thank You! Our staff will contact you";
 }
